@@ -1,25 +1,24 @@
 from backend.app import create_app
-from flask import Request, Response
-import os
+from werkzeug.wsgi import DispatcherMiddleware
 
 app = create_app()
 
 def handler(event, context):
-    # Converte o evento do Vercel para requisição Flask
-    request = Request({
-        'REQUEST_METHOD': event['httpMethod'],
-        'PATH_INFO': event['path'],
-        'QUERY_STRING': event.get('queryStringParameters', ''),
-        'wsgi.input': event.get('body', ''),
-        'CONTENT_TYPE': event.get('headers', {}).get('content-type', ''),
-        'SERVER_NAME': 'vercel',
-        'SERVER_PORT': '443'
-    })
-
     with app.app_context():
-        response = app.full_dispatch_request()
+        from werkzeug.test import EnvironBuilder
+        
+        builder = EnvironBuilder(
+            path=event['path'],
+            method=event['httpMethod'],
+            headers=event.get('headers', {}),
+            data=event.get('body', '')
+        )
+        
+        env = builder.get_environ()
+        response = app(env, lambda *args: None)
+        
         return {
             'statusCode': response.status_code,
             'headers': dict(response.headers),
-            'body': response.get_data(as_text=True)
+            'body': response.data.decode('utf-8')
         }
