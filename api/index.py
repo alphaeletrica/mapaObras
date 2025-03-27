@@ -1,12 +1,12 @@
 from backend.app import create_app
-from werkzeug.wsgi import DispatcherMiddleware
+from werkzeug.middleware.dispatcher import DispatcherMiddleware
+from werkzeug.test import EnvironBuilder
 
 app = create_app()
 
 def handler(event, context):
     with app.app_context():
-        from werkzeug.test import EnvironBuilder
-        
+        # Converte o evento do Vercel para ambiente WSGI
         builder = EnvironBuilder(
             path=event['path'],
             method=event['httpMethod'],
@@ -15,10 +15,16 @@ def handler(event, context):
         )
         
         env = builder.get_environ()
-        response = app(env, lambda *args: None)
+        
+        # Cria uma resposta dummy para capturar a saída
+        def start_response(status, headers, exc_info=None):
+            pass
+        
+        # Executa a aplicação
+        response = app(env, start_response)
         
         return {
-            'statusCode': response.status_code,
-            'headers': dict(response.headers),
-            'body': response.data.decode('utf-8')
+            'statusCode': 200,
+            'headers': dict(headers),
+            'body': response[0].decode('utf-8') if response else ''
         }
