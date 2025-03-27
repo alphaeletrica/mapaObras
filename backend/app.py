@@ -3,23 +3,23 @@ from flask_sqlalchemy import SQLAlchemy
 from flask_cors import CORS
 import os
 
-# Inicialização única do SQLAlchemy
 db = SQLAlchemy()
 
 def create_app():
     app = Flask(__name__)
     
-    # Configuração do PostgreSQL remoto
-    app.config['SQLALCHEMY_DATABASE_URI'] = os.environ['DATABASE_URL'].replace('postgres://', 'postgresql://')
+    # Configuração Async
+    db_url = os.environ['DATABASE_URL'].replace('postgres://', 'postgresql+asyncpg://')
+    app.config['SQLALCHEMY_DATABASE_URI'] = db_url
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
     app.config['SQLALCHEMY_ENGINE_OPTIONS'] = {
         'pool_pre_ping': True,
         'pool_recycle': 300,
         'pool_size': 5,
-        'max_overflow': 10
+        'max_overflow': 10,
+        'pool_timeout': 30
     }
     
-    # Inicializações
     CORS(app)
     db.init_app(app)
     
