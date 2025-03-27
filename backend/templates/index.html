@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa de Cobertura Técnica</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css" />
+</head>
+<body>
+    <header class="header">
+        <img src="{{ url_for('static', filename='logo_alpha_h.png') }}" alt="Logo Alpha" class="logo">
+        <h1 class="header-title">Mapa de Cobertura da Assistência Técnica</h1>
+    </header>
+    
+    <main class="container-fluid p-0">
+        <section class="sidebar">
+            <button class="btn btn-primary w-100" id="toggle-popup">Gerenciar Técnicos</button>
+        </section>
+
+        <div class="popup" id="popup">
+            <button class="btn btn-success mb-2 w-100" id="btn-add-tecnico">Adicionar Técnico</button>
+            <button class="btn btn-danger w-100" id="btn-remove-tecnico">Remover Técnico</button>
+        </div>
+
+        <div class="filter-panel">
+            <h3>Filtros</h3>
+            <label>
+                <input type="checkbox" id="filter-clientes-obras" checked> Clientes
+            </label>
+            <label>
+                <input type="checkbox" id="filter-tecnicos" checked> Técnicos
+            </label>
+        </div>
+
+        <div class="modal" id="add-modal">
+            <div class="modal-content">
+                <h2>Adicionar Técnico</h2>
+                <form id="add-form">
+                    <div class="form-group">
+                        <label class="form-label" for="nome">Nome:</label>
+                        <input type="text" class="form-control" id="nome" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="cidade">Cidade:</label>
+                        <input type="text" class="form-control" id="cidade" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="estado">Estado:</label>
+                        <input type="text" class="form-control" id="estado" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="empresa">Empresa:</label>
+                        <input type="text" class="form-control" id="empresa" required>
+                    </div>
+                    <div class="modal-buttons">
+                        <button type="button" class="btn btn-secondary" data-action="close">Cancelar</button>
+                        <button type="submit" class="btn btn-success">Salvar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="modal" id="remove-modal">
+            <div class="modal-content">
+                <h2>Remover Técnico</h2>
+                <div class="form-group">
+                    <select id="tecnicos-list" class="form-control">
+                    </select>
+                </div>
+                <div class="modal-buttons">
+                    <button type="button" class="btn btn-secondary" data-action="close">Cancelar</button>
+                    <button type="button" class="btn btn-danger" data-action="remove">Remover</button>
+                </div>
+            </div>
+        </div>
+
+        <section id="map"></section>
+    </main>
+
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-omnivore/0.3.4/leaflet-omnivore.min.js"></script>
+    <script src="{{ url_for('static', filename='map.js') }}"></script>
+</body>
+</html>

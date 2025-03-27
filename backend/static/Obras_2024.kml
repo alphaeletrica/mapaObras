@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Obras 2024</name>
+    <Style id="icon-1899-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Guaraves - Escritório ADM</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -35.4973651,-6.8606346,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Fazenda GEM</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -53.1242746,-18.6916161,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Fazenda Paraíso</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -47.9214671,-3.2140523,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Grupo Schlatter</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -52.3933429,-10.1879512,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Fazenda Tayassu - AG Burim</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -47.6977294,-4.3235745,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Fazenda Stringhini</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -44.4856749,-8.3259062,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Fertitex</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -54.7232175,-2.529595,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Portal Agro</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -48.947231,-2.9658241,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Faz Ipe, Insolo</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -45.3170988,-8.4313252,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Nutrien Ag Solutions - Araxá</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -46.8962152,-19.5539752,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Fazenda Emílio</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -44.631079,-8.275693,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Fazenda Campo Alegre- Grupo WDuch</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -48.6435158,-10.0218622,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Conceição Aparecida - Fazenda Buritirana</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -48.6205674,-10.1932247,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Altino Brauner</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -54.4250167,-20.1750229,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Coamo mangueirinha 1 sementes</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -52.1843015,-25.943575,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>FRUTACC ARMAZÉM DE CEREAIS</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -49.6573358,-10.8293674,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Coopatrigo São Borja</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -55.9041838,-28.6563462,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>JEM ARMAZÉNS GERAIS</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -48.5990283,-9.479664,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>André Ruaro</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -50.4365399,-9.4300017,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Silvio Sugeta</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -49.1140482,-9.2490237,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tapajós Agropecuária</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -55.9580953,-4.3512809,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Agrosustentável - MBB Agro</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -44.8967038,-7.3190038,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>COCARI - Cooperativa Agropecuária e Industrial (Unidade Silvânia )</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -48.6214501,-16.7103207,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Agro Tiraximim - Faz. São Joaquim</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -51.3311253,-8.8054955,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Agrofel Agro Comercial Ltds. Unidade Rio Pardo</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -52.3712666,-29.9822629,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Novo Mundo Alimentos</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -54.299271,-23.907811,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Filial Guaraves – Incubatório</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -35.439667,-6.745978,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>COOPATRIGO SANTO ANTONIO DAS MISSÕES, UNIDADE RINCÃO DO MEIO</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -55.5697822,-28.5508899,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Cocari - São Pedro do Ivaí</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -51.8507938,-23.8780111,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Soy Brasil - Santana do Araguaia</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -50.4425533,-9.4606009,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Maria Abath</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -55.0193009,-21.2640354,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Coopatrigo Garruchos</name>
+      <description>São José Velho</description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -55.5133171,-28.2567652,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Silo São Pedro</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -47.7547194,-4.3326539,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Cerealista Albaruska Ltda</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -56.088356,-28.7097682,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Agro Tiraximim - Faz. Grão Pará</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -50.6974058,-8.6388498,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sipal - Lucas do Rio Verde</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -55.9287307,-13.0544859,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sementes Roos - Matriz</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -52.8145723,-28.4427278,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Zanette</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -56.4686871,-9.6656508,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Lucas de Almeida</name>
+      <description>Fazenda Santa Isabel</description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -44.2655257,-7.2839316,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Agro Esperança / Bruce Slaviero</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -47.7998712,-4.428492,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sipal - Sorriso I</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -55.7160181,-12.5557268,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sipal - Sorriso II</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -55.7146877,-12.5552027,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Paulo Rocha</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -43.8051992,-4.6896729,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Cotricampo - São Valério do Sul</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -53.9268922,-27.788747,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Avispará - Tapajós Alimentos Ltda</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -54.747168,-2.6367542,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Producerta</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -51.3741704,-24.5401777,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Cotricampo - Campo Novo</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -53.8002794,-27.6809224,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sociedade Balnearia Panambi</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -53.5056718,-28.2981668,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Hidroenergia</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -53.9194815,-28.4146242,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Matosul</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -55.3265481,-21.1186987,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Cotricampo - Centro Administrativo</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -53.7998307,-27.6805802,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Carlos Pires</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -54.9238675,-28.4140197,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Silo São Pedro - Açailândia</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -47.2925195,-4.8343649,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Atlântica Alimentos</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -42.571627,-5.0513911,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Diego Schneider</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -48.018591,-9.9861212,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Cotriguaçu Cooperativa Central - Moinho de Trigo</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -53.8334224,-24.3047904,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Corteva Agriscience- Área de Paraíso</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -48.8527792,-10.1745059,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Corteva Agriscience</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -48.3215229,-10.492068,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Cotripal - Unidade Catuípe</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -54.0118453,-28.2618862,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Claudiomar Vicente</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -50.0922731,-8.035158,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Luis Kuss</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -44.2713552,-7.7194451,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Alessandro Illich</name>
+      <description>Consórcio São Miguel</description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -49.5147004,-10.7179128,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Coopatrigo - Unidade Pirapó</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -55.1977171,-28.0431546,0
+        </coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

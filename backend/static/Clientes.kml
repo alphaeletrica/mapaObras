@@ -1,0 +1,789 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Clientes</name>
+    <Style id="icon-1899-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Juparanã</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -47.4453076,-2.9421265,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Insolo - Fazenda Bela Vista</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -43.3048533,-4.1971595,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Lactalis Do Brasil</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -52.1088265,-27.2000145,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Lactalis</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -53.8810113,-28.3759984,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Cotripal - Unidade Gramado</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -53.6474957,-28.3234538,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Unidade de grãos Cotripal</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -53.5152899,-28.3171151,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Fábrica de Rações Cotripal</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -53.5171187,-28.3171431,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Coopatrigo C.R.A.G</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -54.938719,-28.4184482,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Agroindústria - Coopatrigo</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -54.9240063,-28.4096775,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Supermercado Coopatrigo</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -54.9433333,-28.4102778,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Cooperativa Tritícola Regional de São Luizense Ltda</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -55.2294769,-28.4934844,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Coopatrigo - São José Novo</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -55.5408764,-28.5395456,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Coopatrigo santiago VL florida(recebimento grãos)</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -54.5884637,-29.2479278,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Corteva Agriscience - Unidade Santa Rosa</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -54.4727319,-27.841425,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Agrofigueira</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -53.6368099,-24.3156259,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[B & F Agro]]></name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -52.5286346,-23.6549534,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>ARMAZÉM BIAZI II JUTI</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -54.596427,-22.8922958,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Armazenadora Nova União</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -54.82005,-22.6078389,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>ARMAZEM TRESMAr</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -54.7163656,-20.5848449,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>FV ARMAZENS</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -54.9693811,-20.9865699,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>ARMAZÉNS GERAIS LOT (SILO FAZ. SÃO JOÃO)</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -53.1035385,-19.2288756,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>FERTITEX AGRO</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -55.383358,-7.1368398,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Fosplan</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -48.2575028,-7.2770108,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Odelmo Leão</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -48.4743445,-9.423753,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Portal Agro</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -47.5934219,-4.3060975,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Silo Fazenda Tayassu</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -47.7348125,-4.3234375,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Abatedouro Guaraves</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -35.4579916,-6.8554845,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Guaraves - Fábrica Nova</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -35.4649479,-6.8583388,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Guaraves</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -35.4985468,-6.8686538,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Super Atacado Frango Bom Todo - Campina Grande</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -35.8757925,-7.2193129,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Figueira Energia</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -53.72897,-31.5693125,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Cotrijuc - Unidade São Valentim</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -54.0062734,-29.7650084,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>C.Vale</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -52.8727228,-28.6410013,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Copercampos - Nova Prata FL82</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -51.6325398,-28.7436918,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Rupollo Sementes</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -53.3255439,-27.9665295,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Cotripal Unidade Linha 28 (37-02)</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -53.6742365,-28.2196396,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Cooperativa Tritícola Regional Sãoluizense Ltda</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -55.2665748,-28.1777019,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Coopatrigo São Gregorio</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -55.3711204,-28.3754882,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>coopatrigo santiago(centro agropecuário e automotivo)</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -54.8806393,-29.159518,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Fazenda Santa Maria Insolo</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -44.1967792,-8.1227484,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Superatacado Bom Todo Ceasa RN</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -35.225001,-5.8235834,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Superatacado Bom Todo - Oitizeiro</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -34.8964759,-7.1598251,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Superatacado Bom Todo - Ruy Carneiro</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -34.8251041,-7.1104303,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SuperAtacado Bom Todo - Centro Comercial</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -34.8793857,-7.1250869,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Superatacado Bom Todo - Sousa</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -38.2371861,-6.7786738,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>G3 Agroavícola LTDA</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -35.8752465,-8.1412259,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Fazenda Malacarne</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -49.0028663,-10.5990838,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Marcelo Sabin</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -48.5458436,-9.2069808,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Fouad Ali Rkein</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -47.3902153,-11.1551004,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Fazenda Arapuá</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -48.0624401,-9.9563192,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Dari Fronza</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -48.1763508,-11.1620502,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AGROJEM - Fazenda Bacaba</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -48.7843266,-9.5290726,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Gerson Kyt - Fazenda Bela Vista</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -47.8190209,-4.631061,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Fernando Sisto</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -47.8389246,-4.7229095,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>COTRICAMPO</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -53.8595307,-27.2785079,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Cotricampo Armazem</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -53.9562002,-27.5641299,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Fazenda Guavira</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -54.7607182,-20.6601353,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Fazenda Capão Grande/ABC</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -55.1222965,-21.2744836,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>FH ARMAZÉNS GERAIS</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -54.6726699,-2.6369847,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Campo Rico Brasil Comércio de Fertilizantes</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -54.7267473,-2.4625226,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Fazenda Arco Íris</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -47.4931119,-4.7809592,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Fazenda Pau Brasil (Grupo Arco-íris)</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -47.4969559,-4.6549506,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Fernando Pinto/Gustavo Bezerra</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -47.820337,-4.3187461,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Fernando Sassamoto</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -47.7036265,-4.3273591,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Paulo Motta</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -47.6078393,-4.2040161,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Silo Santa Terezinha / Emerson Brina</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -47.8436919,-4.5740158,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>FAZENDA KAROLINE / Marco Carafini</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -48.8889322,-2.9827868,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Fazenda Nova Aliança / Udo Kudiess</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -44.5096167,-7.5277168,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Campo e Lavoura</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -54.8463845,-29.8787786,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Agropecuária BONITO</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -53.9177896,-28.6676893,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Vida Natural Ind. e Comércio de Cereais ltda (37-02)</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -53.8119316,-28.2415695,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Armazém Integração</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -49.8954123,-9.4180949,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Guaraves - Uruçuí-PI</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -44.4603664,-7.2269146,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Fazenda São Bernardo Guaraí</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -48.5098308,-8.711813,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Vibra Energia</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -53.9220348,-28.4002253,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Fazendão Agronegócio- Unidade Industrial</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -48.5546331,-10.2388482,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+    </Placemark>
+    <Placemark>
+      <name>Fazenda Jacuba - Agropecuária Mfries</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -53.0461732,-17.8838705,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Insolo - Fazenda Bela Vista</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -43.3048533,-4.1971595,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Grupo Michels - SÍTIO ESPERANÇA</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -52.2787013,-10.365818,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>BSD Agro - Silo Faz Patriarca</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -49.135137,-3.2181494,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Jocelito Krug - Fazenda Santa Fé - JK</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -50.3526652,-9.5717658,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Osvino Ricardi</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -49.0338009,-3.695128,0
+        </coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>
