@@ -1,22 +1,9 @@
 from backend.app import create_app
-from flask import request
-import asyncio
+from vercel_storage import wsgi_handler  # Importe o handler correto
 
 app = create_app()
 
-async def handler(event, context):
+def handler(request):
     with app.app_context():
-        # Converte o evento do Vercel para requisição Flask
-        path = event['path']
-        method = event['httpMethod']
-        headers = event.get('headers', {})
-        body = event.get('body', '')
-        
-        with app.test_request_context(path=path, method=method, 
-                                    headers=headers, data=body):
-            response = app.full_dispatch_request()
-            return {
-                'statusCode': response.status_code,
-                'headers': dict(response.headers),
-                'body': response.get_data(as_text=True)
-            }
+        response = wsgi_handler(app, request)
+        return response
